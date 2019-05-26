@@ -2,11 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { MuiThemeProvider } from '@material-ui/core/styles';
+import { Router, Switch, Route } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import theme from './utils/theme';
+import history from './utils/history';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+ReactDOM.render(
+  <MuiThemeProvider theme={theme}>
+    <Router history={history}>
+      <Switch>
+        <Route component={App}/>
+      </Switch>
+    </Router>
+  </MuiThemeProvider>,
+  document.getElementById('root')
+);
+
 serviceWorker.unregister();
