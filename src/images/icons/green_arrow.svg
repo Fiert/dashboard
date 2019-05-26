@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.04" height="16.59" viewBox="0 0 14.04 16.59">
+  <defs>
+    <clipPath id="clip-green_arrow">
+      <rect width="14.04" height="16.59"/>
+    </clipPath>
+  </defs>
+  <g id="green_arrow" clip-path="url(#clip-green_arrow)">
+    <rect width="14.04" height="16.59" fill="#fff"/>
+    <path id="Union_25" data-name="Union 25" d="M-4160.036,49.043a1.875,1.875,0,0,1,0-2.65l1.749-1.749h-7.84A1.874,1.874,0,0,1-4168,42.77a1.874,1.874,0,0,1,1.874-1.873h7.789l-1.7-1.7a1.875,1.875,0,0,1,0-2.65,1.874,1.874,0,0,1,2.649,0l4.878,4.878a1.872,1.872,0,0,1,.548,1.37,1.872,1.872,0,0,1-.548,1.37l-4.878,4.877a1.866,1.866,0,0,1-1.324.549A1.868,1.868,0,0,1-4160.036,49.043Z" transform="translate(-36 -4151.96) rotate(-90)" fill="#a2eb16"/>
+  </g>
+</svg>
